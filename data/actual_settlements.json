@@ -1,0 +1,5 @@
+[
+  {"tx_ref": "TXN-20261122-001", "merchant_id": "MCH-104", "amount": 4500.00, "currency": "PKR", "status": "SETTLED"},
+  {"tx_ref": "TXN-20261122-002", "merchant_id": "MCH-109", "amount": 12500.50, "currency": "PKR", "status": "SETTLED"},
+  {"tx_ref": "TXN-20261122-004", "merchant_id": "MCH-212", "amount": 8900.00, "currency": "PKR", "status": "FAILED"}
+]

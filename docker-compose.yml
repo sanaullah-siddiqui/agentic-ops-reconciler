@@ -1,0 +1,12 @@
+services:
+  ops-reconciler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agentic-ops-reconciler
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data:ro
+      - ./output:/app/output
+    restart: "no"

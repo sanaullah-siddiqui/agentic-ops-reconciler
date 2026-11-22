@@ -1,0 +1,5 @@
+2026-11-22T08:14:02Z INFO  [settlement-worker] Batch sync started for window 08:00Z
+2026-11-22T08:14:19Z WARN  [pos-gateway] Timeout waiting for upstream acquirer ACK on TXN-20261122-003 (retry_count=3)
+2026-11-22T08:14:25Z ERROR [ledger-reconciler] Currency rounding drift detected on TXN-20261122-002: expected=12800.50 actual=12500.50
+2026-11-22T08:15:01Z ERROR [hsm-auth-service] Settlement token validation failed for TXN-20261122-004 (err_code=HSM_TIMEOUT)
+2026-11-22T08:15:10Z INFO  [settlement-worker] Batch sync completed with 3 exceptions
